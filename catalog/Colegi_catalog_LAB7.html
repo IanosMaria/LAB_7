@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" href="Agenda2.css">
+	<link rel="icon" href="evenimente-utcn.jpg" type="image/x-icon">
+	<link rel="stylesheet" type="text/css" href="../js/slick-1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="../js/slick-1.8.1/slick/slick-theme.css"/>
+    <title>Exercitiul 3</title>
+</head>
+<body>
+    
+	<div class="w3-container w3-center">
+    <h1>Catalog colegi</h1>
+    <p>Pentru a afla mai multe informatii despre colegii de grupa click pe paginile lor.</p>
+
+    <section class="students center">
+        <a class="student" href="Bungardean.html" class="w3-button w3-blue">
+            <img class="img-style" src="coleg_tudor.jpeg" alt="">    
+            Bungardean Tudor
+        </a>
+        <a class="student" href="Iancau.html" class="w3-button w3-blue">
+            <img class="img-style" src="coleg_Flavius.jpg" alt="">
+            Iancau Flavius
+        </a>
+        <a class="student" href="Boca.html" class="w3-button w3-blue">
+            <img class="img-style" src="coleg_Razvan.jpg" alt="">
+            Boca Razvan
+        </a>
+        <a class="student" href="Bungardean.html" class="w3-button w3-blue">
+            <img class="img-style" src="coleg_tudor.jpeg" alt="">    
+            Bungardean Tudor
+        </a>
+        <a class="student" href="Iancau.html" class="w3-button w3-blue">
+            <img class="img-style" src="coleg_Flavius.jpg" alt="">
+            Iancau Flavius
+        </a>
+        <a class="student" href="Boca.html" class="w3-button w3-blue">
+            <img class="img-style" src="coleg_Razvan.jpg" alt="">
+            Boca Razvan
+        </a>
+    </section>
+  <h2>Sigla facultatii</h2>
+ 
+  <img src="evenimente-utcn.jpg" class="w3-circle" alt="imagine" style="width:50%">
+
+</div>
+    
+</div>
+
+<script
+  src="https://code.jquery.com/jquery-3.7.1.js"
+  integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+  crossorigin="anonymous"></script>
+  <script
+  src="https://code.jquery.com/jquery-3.7.1.min.js"
+  integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+  crossorigin="anonymous"></script>
+  <script type="text/javascript" src="../js/slick-1.8.1/slick/slick.min.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $(".center").slick({
+                centerMode: true,
+                centerPadding: '30px',
+                slidesToShow: 3,
+                slidesToSlide: 1,
+                arrows: true,
+                slidePerRow: 1,
+                autoplay:true,
+            });
+        });
+    </script>
+</body>
+</html>
